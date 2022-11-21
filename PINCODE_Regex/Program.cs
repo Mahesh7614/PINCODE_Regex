@@ -9,7 +9,7 @@ namespace PINCODE_Regex
             //long pin = Convert.ToInt64(Console.ReadLine());
             //RegexPattern.Pattern(pin);
             // RegexPattern.Pattern("A40088");
-            string pin = "40088A";
+            string pin = "400 088";
            RegexPattern.Pattern(pin);
         }
     }
