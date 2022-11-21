@@ -8,7 +8,7 @@ namespace PINCODE_Regex
     {
         public static void Pattern(long pattern)
         {
-            Regex code = new Regex(("^[1-9]{1}[0-9]{5}$"));
+            Regex code = new Regex("^[1-9]{1}[0-9]{5}$");
             bool matches = code.IsMatch(Convert.ToString(pattern));
 
             if (matches == true)
